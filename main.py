@@ -9,6 +9,8 @@ def main():
 
     order_summary = ()
 
+
+
     while True:
         order = ()
         while True:
@@ -41,6 +43,7 @@ def main():
         next_order = input("Chcesz złożyć ponowne zamówienie? (t/n): ")
         if next_order == "n":
             break
+
 
     print('Podsumowanie zamówienia:')
     order_price_summary = 0
